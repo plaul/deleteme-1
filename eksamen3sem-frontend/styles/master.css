@@ -1,0 +1,64 @@
+@import url(notFound.css);
+@import url(menu.css);
+@import url(about.css);
+@import url(colours.css);
+@import url(viewEvents.css);
+@import url(findEvent.css);
+@import url(editEvent.css);
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color-light);
+    width: 75vmax;
+    margin-top: 10px;
+}
+
+.flex input {
+    border-radius: 5px;
+}
+
+.flex label {
+    margin-right: 6px;
+    margin-left: 3px;
+}
+
+.flex-body {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.flex-title {
+    display: flex;
+    justify-content: center;
+    margin : 5px;
+
+}
+
+
+body {
+    background-color: var(--tertiary-color-light);
+}
+
+
+.nav-space {
+    margin-right: 10px;
+}
+
+.beaver {
+    display: flex;
+    justify-content: center;
+    width: 80vh;
+    height: 80vh;
+}
+
+
+
+
+
